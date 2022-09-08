@@ -1,0 +1,32 @@
+public class Ex01TruthEijansantosCalderon {
+  public static void main(String[] args) {
+      //Diablo 3 Character 1
+      String namechar1 = "Jalla"; //Character name
+      String classchar1 = "Monk"; //Character class
+      int levelchar1 = 70; //Character level
+  
+      //Diablo 3 Character 2
+      String namechar2 = "Orcus"; //Character name
+      String classchar2 = "Necromancer"; //Character class
+      int levelchar2 = 67; //Character level
+  
+      //Diablo 3 Character 3
+      String namechar3 = "Will"; //Character name
+      String classchar3 = "Wizard"; //Character class
+      int levelchar3 = 1; //Character level
+
+      System.out.println ("Diablo 3 Character 1:\n" + "Name: " + namechar1 + "\n" + "Class: " + classchar1 + "\n" + "Level: " + levelchar1 + "\n"); //Prints Character 1's data
+      
+      System.out.println ("Diablo 3 Character 2:\n" + "Name: " + namechar2 + "\n" + "Class: " + classchar2 + "\n" + "Level: " + levelchar2 + "\n"); //Prints Character 2's data
+
+      System.out.println ("Diablo 3 Character 3:\n" + "Name: " + namechar3 + "\n" + "Class: " + classchar3 + "\n" + "Level: " + levelchar3 + "\n"); //Prints Character 3's data
+
+      int levelsum = levelchar1 + levelchar2 + levelchar3; //Adds the levels of the three characters together
+      int leveldifference1 = levelchar1 - levelchar2; //Calculates the difference in level between Character 1 and Character 2
+      int leveldifference2 = levelchar1 - levelchar3; //Calculates the difference in level between Character 1 and Character 3
+      
+      System.out.println ("Total Diablo 3 Levels: " + levelsum +"\n"); //Prints out the level sum of all three characters
+      System.out.println ("Level Difference between Character 1 & 2: " + leveldifference1 + "\n"); //Prints out the level difference between Character 1 and Character 2
+      System.out.println ("Level Difference between Character 1 & 3: " + leveldifference2 + "\n"); //Prints out the level difference between Character 1 and Character 3
+    }
+}
